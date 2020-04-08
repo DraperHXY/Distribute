@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: order-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  datasource:
+    druid:
+      url: jdbc:mysql://127.0.0.1:3306/distribute?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+      username: root
+      password: 123456
