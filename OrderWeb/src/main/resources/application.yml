@@ -12,3 +12,7 @@ spring:
       url: jdbc:mysql://127.0.0.1:3306/distribute?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
       username: root
       password: 123456
+
+ribbon:
+  ConnectTimeout: 6000
+  ReadTimeout: 6000
